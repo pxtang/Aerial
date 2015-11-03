@@ -5,6 +5,8 @@ Aerial is a Mac screen saver based on the new Apple TV screen saver that display
 
 Aerial is completely open source, so feel free to contribute to its development!
 
+###### Windows user? Try [cDima/Aerial](https://github.com/cDima/Aerial/)
+
 #### Coded with Love by John Coates
 
 [![Twitter](http://i.imgur.com/KzOiue1.png)](http://twitter.com/punksomething)
@@ -17,6 +19,9 @@ Aerial is completely open source, so feel free to contribute to its development!
 3. Open **Aerial.saver** and confirm installation.
 
 If Aerial.saver could not be opened, place Aerial.saver in ~/Library/Screen Savers
+
+## Caching Support & Offline Mode - Beta
+If you'd like the videos to be saved as they are viewed to minimize bandwidth concerns and enable offline mode, the 1.2 beta 4 has this feature. [Click here to download 1.2 beta 4](https://github.com/JohnCoates/Aerial/releases/download/v1.2beta4/Aerial.zip)
 
 ## Settings Aerial as Your Screen Saver
 
@@ -49,6 +54,15 @@ I appreciate all pull requests. Caching hasn't been added yet.
   - Removed unnecessary logging.
   - Now shows error when installing on unsupported OS X version.
 - October 26th, 2015 - 1.0: First release.
+
+## Brew Cask Support - Install Remotely
+If you're looking to install Aerial across many systems, remotely, or simply from terminal I recommend [Brew Cask](http://caskroom.io/).
+
+Issue the following terminal command: **brew cask install aerial**
+
+## Troubleshooting
+
+- Black screen: Try disabling Little Snitch, or try the latest beta release from [Aerial Releases](https://github.com/JohnCoates/Aerial/releases/).
 
 ## License
 [MIT License](https://raw.githubusercontent.com/JohnCoates/Aerial/master/LICENSE)
